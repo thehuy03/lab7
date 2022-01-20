@@ -1,0 +1,23 @@
+.box{
+    padding: 0px;
+    border: radius 3px;
+    list-style: none;
+    box-shadow: 0 0 2px gray;
+    margin: 5px;
+}
+.box a{
+    background: url(../img/timkiem.jpg) no-repeat 10px center;
+    display: block;
+    border-bottom: 1px dotted orangered;
+    color: orangered;
+    font-variant: small-caps;
+    font-size: larger;
+    text-decoration: none;
+    padding: 8px 5px 8px 30px;
+}
+.box a:hover{
+    border-bottom: 1px dotted whitesmoke;
+    background-color: orangered;
+    color: white;
+    font-weight: bolder;
+}
